@@ -56,15 +56,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtView" />
 
+
     <TextView
         android:id="@+id/txtView"
-        android:layout_width="206dp"
-        android:layout_height="71dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="400dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="48dp"
         android:text="@string/poupando"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="525dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/nome_ra"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
