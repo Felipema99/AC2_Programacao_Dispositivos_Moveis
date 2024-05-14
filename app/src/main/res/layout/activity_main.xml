@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDDC39"
+    tools:context="com.example.contas.MainActivity">
+
+    <Button
+        android:id="@+id/txtCuston"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="@string/listar_gastos"
+        app:layout_constraintEnd_toEndOf="@+id/btnAdicionar"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnAdicionar"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdicionar" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="119dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/ic_lista"
+        app:layout_constraintBottom_toBottomOf="@+id/txtCuston"
+        app:layout_constraintEnd_toStartOf="@+id/txtCuston"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/ic_porco2"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAdicionar"
+        app:layout_constraintEnd_toStartOf="@+id/btnAdicionar"
+        app:layout_constraintHorizontal_bias="0.004"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="116dp"
+        android:text="@string/adicionar_gasto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="206dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/poupando"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
